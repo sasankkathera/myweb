@@ -18,7 +18,7 @@ pipeline{
         }
         stage("deploy-dev"){
             steps{
-             sh "mv target/*.war /home/user/TomcatAuto/apache-tomcat-9.0.55/webapps"
+             sh "mv target/*.wa"
      
             }
         }
