@@ -18,7 +18,8 @@ pipeline{
         }
         stage("deploy-dev"){
             steps{
-             sh "mv target/*.wa"
+            sh "pwd"
+             sh "mv target/*.wa "
      
             }
         }
