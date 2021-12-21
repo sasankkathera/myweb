@@ -19,7 +19,7 @@ pipeline{
         stage("deploy-dev"){
             steps{
             sh "pwd"
-             sh "mv target/*.wa  /home/admin/apache-tomcat-9.0.55/webapps"
+             sh "mv target/*.war  /home/admin/apache-tomcat-9.0.55/webapps"
      
             }
         }
